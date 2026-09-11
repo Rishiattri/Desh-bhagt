@@ -15,6 +15,8 @@ import Courses from './pages/dashboard/Courses'
 import Grades from './pages/dashboard/Grades'
 import Attendance from './pages/dashboard/Attendance'
 import Fees from './pages/dashboard/Fees'
+import Profile from './pages/dashboard/Profile'
+import Timetable from './pages/dashboard/Timetable'
 
 function SiteLayout() {
   return (
@@ -47,9 +49,11 @@ function App() {
             <Routes>
               <Route index element={<Overview />} />
               <Route path="courses" element={<Courses />} />
+              <Route path="timetable" element={<Timetable />} />
               <Route path="grades" element={<Grades />} />
               <Route path="attendance" element={<Attendance />} />
               <Route path="fees" element={<Fees />} />
+              <Route path="profile" element={<Profile />} />
             </Routes>
           </DashboardLayout>
         }

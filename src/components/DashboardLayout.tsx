@@ -4,9 +4,11 @@ import { NavLink } from 'react-router-dom'
 const links = [
   { to: '/dashboard', label: 'Overview', icon: '🏠', end: true },
   { to: '/dashboard/courses', label: 'Courses', icon: '📘' },
+  { to: '/dashboard/timetable', label: 'Timetable', icon: '📅' },
   { to: '/dashboard/grades', label: 'Grades', icon: '📊' },
   { to: '/dashboard/attendance', label: 'Attendance', icon: '🗓️' },
   { to: '/dashboard/fees', label: 'Fees', icon: '💳' },
+  { to: '/dashboard/profile', label: 'Profile', icon: '👤' },
 ]
 
 function DashboardLayout({ children }: { children: ReactNode }) {
