@@ -19,6 +19,8 @@ function Footer() {
               <li><Link to="/programs">Programs</Link></li>
               <li><Link to="/faculty">Faculty</Link></li>
               <li><Link to="/admissions">Admissions</Link></li>
+              <li><Link to="/news">News & Events</Link></li>
+              <li><Link to="/gallery">Gallery</Link></li>
             </ul>
           </div>
           <div>
