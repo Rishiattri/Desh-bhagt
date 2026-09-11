@@ -7,6 +7,8 @@ const links = [
   { to: '/programs', label: 'Programs' },
   { to: '/admissions', label: 'Admissions' },
   { to: '/faculty', label: 'Faculty' },
+  { to: '/news', label: 'News & Events' },
+  { to: '/gallery', label: 'Gallery' },
   { to: '/contact', label: 'Contact' },
 ]
 
